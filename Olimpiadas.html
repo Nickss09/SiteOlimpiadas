@@ -9,7 +9,19 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;}
+        align-items: center;
+      }
+        .banner{
+          width: 100%;
+          height: 500px;
+          display: flex;
+          justify-content: center;
+        align-items: center;
+        background: url(https://istoe.com.br/wp-content/uploads/2021/08/000-9hb26e-1-scaled-e1627896597952.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
         .img{
           height: 62px;
           width: 70px;
@@ -20,6 +32,17 @@
             border-radius: 10px;
             border-collapse: collapse;
             border: 2px solid rgb(230, 89, 89);
+        }
+        .medalhas{
+          height: 20px;
+          width: 40px;
+        }
+        .medalha{
+          height: 20px;
+          width: 20px;
+        }
+        .bandeira{
+          height: 10px;
         }
         td{
             border-radius: 10px;
@@ -39,24 +62,27 @@
     </style>
 </head>
 <body class="body">
+  <section class="banner">
     <div><img src="emblem-oly.svg" class="img"></div>
-    <div><img src="https://i.pinimg.com/564x/a6/fa/3e/a6fa3e41eecb0cf2097991271a15653d.jpg" class="foto"></div>
+    <div><img src="" class="foto"></div>
+  </section>
+   
     <div class="tabela">
         <table>
             <thead>
               <tr class="linha">
                 <th scope="col">Posição</th>
                 <th scope="col">País</th>
-                <th scope="col"><img src="" alt="ouro"></th>
-                <th scope="col"><img src="" alt="prata"></th>
-                <th scope="col"><img src="" alt="bronze"></th>
-                <th scope="col"><img src="" alt="geral"></th>
+                <th scope="col"><img src="https://i.pinimg.com/564x/3e/a0/4a/3ea04a802889fcbf908d58b2b6ddddd1.jpg" class="medalha"></th>
+                <th scope="col"><img src="https://i.pinimg.com/236x/bc/5f/b0/bc5fb008bf045b456dcdadec27db9e68.jpg" class="medalha"></th>
+                <th scope="col"><img src="https://i.pinimg.com/564x/26/66/0d/26660de5735b578a2b9b8e06be424b07.jpg" class="medalha"></th>
+                <th scope="col"><img src="https://i.pinimg.com/564x/37/bc/87/37bc879f69534b41035729c5d19bb047.jpg" class="medalhas"></th>
               </tr>
             </thead>
             <tbody>
               <tr class="linha">
                 <th scope="row">1°</th>
-                <td>Estados Unidos</td>
+                <td><img src="https://i.pinimg.com/564x/b8/d6/47/b8d64715d4c55dd405e47badf0ffef8b.jpg" class="bandeira"> Estados Unidos</td>
                 <td>27</td>
                 <td>35</td>
                 <td>33</td>
@@ -64,7 +90,7 @@
               </tr>
               <tr class="linha">
                 <th scope="row">2°</th>
-                <td>China</td>
+                <td><img src="https://i.pinimg.com/564x/9e/7f/6d/9e7f6d5afcdce9d82b988e1285acc057.jpg" class="bandeira"> China</td>
                 <td>26</td>
                 <td>24</td>
                 <td>17</td>
@@ -72,22 +98,25 @@
               </tr>
               <tr class="linha">
                 <th scope="row">3°</th>
-                <td>Australia</td>
+                <td><img src="https://i.pinimg.com/564x/cd/ef/af/cdefaffcbcc3f2069e5077672fa27ef4.jpg" class="bandeira"> Australia</td>
                 <td>18</td>
                 <td>14</td>
                 <td>11</td>
                 <td>43</td>
               </tr>
               <tr class="linha">
-                <th scope="row">17°</th>
-                <td>Brasil</td>
+                <th scope="row">18°</th>
+                <td><img src="https://i.pinimg.com/564x/6f/1b/bf/6f1bbfecb6f559981fb9e9857111ae41.jpg" class="bandeira"> Brasil</td>
                 <td>2</td>
                 <td>5</td>
-                <td>6</td>
-                <td>18</td>
+                <td>7</td>
+                <td>14</td>
               </tr>
             </tbody>
           </table>
+    </div>
+    <div class="box1">
+      <img src="" alt="">
     </div>
 </body>
 </html>
