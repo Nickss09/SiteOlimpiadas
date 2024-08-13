@@ -5,34 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olimpíadas Paris 2024</title>
     <style>
-        .body{background-color: rgb(151, 193, 228);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
+        .body{
+          background-color: rgb(151, 193, 228);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
         .banner{
           width: 100%;
           height: 500px;
           display: flex;
           justify-content: center;
-        align-items: center;
-        background: url(https://istoe.com.br/wp-content/uploads/2021/08/000-9hb26e-1-scaled-e1627896597952.jpg);
-        border-radius: 10px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+          align-items: center;
+          background: url(https://i.pinimg.com/564x/b0/1f/8c/b01f8cdaeb54fd440c9f916435b68b06.jpg);
+          border-radius: 10px;
+          background-position: 40% 60%;
+          background-repeat: no-repeat;
+          background-size: cover;
         }
         .img{
           height: 300px;
           width: 700px;
         }
         .tabela{
-            margin-top: 100px;
-            background-color: white;
-            border-radius: 10px;
-            border-collapse: collapse;
-            border: 2px solid rgb(89, 174, 230);
+          margin-top: 50px;
+          background-color: white;
+          border-radius: 10px;
+          border: 2px solid rgb(89, 174, 230);
+        }
+        .globo{
+          height: 20px;
+          width: 20px;
         }
         .medalhas{
           height: 20px;
@@ -46,33 +50,50 @@
           height: 10px;
         }
         td{
-            border-radius: 10px;
-            border: 2px solid rgb(89, 174, 230);
-            padding: 8px 10px;
+          border-radius: 10px;
+          border: 2px solid rgb(89, 174, 230);
+          padding: 8px 10px;
         }
         th{
-            border-radius: 10px;
-            border: 2px solid rgb(89, 174, 230);
-            padding: 8px 10px;
+          border-radius: 10px;
+          border: 2px solid rgb(89, 174, 230);
+          padding: 8px 10px;
         }
         tr{
-            border-radius: 10px;
-            border: 2px solid rgb(89, 174, 230);
-            padding: 8px 10px;
+          border-radius: 10px;
+          border: 2px solid rgb(89, 174, 230);
+          padding: 8px 10px;
         }
         .box1{
-          flex-direction: column;
+          display: flex;
           margin-top: 10px;
+        }
+        .texto{
+          margin-left: 30px;
+        }
+        .link{
+          text-decoration: none;
+          color: midnightblue;
+        }
+        .botao{
+          border-radius: 5px;
+          background-color: azure;
+          width: 120px;
+          height: 20px;
+        }
+        .seeMore{
+          margin-left: 7px;
         }
         .fotoA{
           width: 300px;
-          border-radius: 30px;
+          border-radius: 10px;
+          margin-left: 100px;
         }
     </style>
 </head>
 <body class="body">
   <section class="banner">
-    <div><img src="emblem-oly.svg" class="img"></div>
+    <div><img src="	https://olympics.com/_pr/topic-assets/paris-2024/emblem-oly.svg" class="img"></div>
   </section>
    
     <div class="tabela">
@@ -80,7 +101,7 @@
             <thead>
               <tr class="linha">
                 <th scope="col">Posição</th>
-                <th scope="col">País</th>
+                <th scope="col"><img src="https://i.pinimg.com/236x/e0/9e/0d/e09e0db29e7f0d5971bfa13b94b6b800.jpg" class="globo"></th>
                 <th scope="col"><img src="https://i.pinimg.com/564x/3e/a0/4a/3ea04a802889fcbf908d58b2b6ddddd1.jpg" class="medalha"></th>
                 <th scope="col"><img src="https://i.pinimg.com/236x/bc/5f/b0/bc5fb008bf045b456dcdadec27db9e68.jpg" class="medalha"></th>
                 <th scope="col"><img src="https://i.pinimg.com/564x/26/66/0d/26660de5735b578a2b9b8e06be424b07.jpg" class="medalha"></th>
@@ -91,45 +112,55 @@
               <tr class="linha">
                 <th scope="row">1°</th>
                 <td><img src="https://i.pinimg.com/564x/b8/d6/47/b8d64715d4c55dd405e47badf0ffef8b.jpg" class="bandeira"> Estados Unidos</td>
-                <td>27</td>
-                <td>35</td>
-                <td>33</td>
-                <td>95</td>
+                <td>40</td>
+                <td>44</td>
+                <td>42</td>
+                <td>126</td>
               </tr>
               <tr class="linha">
                 <th scope="row">2°</th>
                 <td><img src="https://i.pinimg.com/564x/9e/7f/6d/9e7f6d5afcdce9d82b988e1285acc057.jpg" class="bandeira"> China</td>
-                <td>26</td>
+                <td>40</td>
+                <td>27</td>
                 <td>24</td>
-                <td>17</td>
-                <td>67</td>
+                <td>91</td>
               </tr>
               <tr class="linha">
                 <th scope="row">3°</th>
-                <td><img src="https://i.pinimg.com/564x/cd/ef/af/cdefaffcbcc3f2069e5077672fa27ef4.jpg" class="bandeira"> Australia</td>
-                <td>18</td>
-                <td>14</td>
-                <td>11</td>
-                <td>43</td>
+                <td><img src="https://i.pinimg.com/736x/a8/5f/3d/a85f3de67f4e3e931bd8897118ea4450.jpg" class="bandeira"> Japão</td>
+                <td>20</td>
+                <td>12</td>
+                <td>13</td>
+                <td>45</td>
               </tr>
               <tr class="linha">
                 <th scope="row">20°</th>
                 <td><img src="https://i.pinimg.com/564x/6f/1b/bf/6f1bbfecb6f559981fb9e9857111ae41.jpg" class="bandeira"> Brasil</td>
-                <td>2</td>
-                <td>5</td>
+                <td>3</td>
                 <td>7</td>
-                <td>14</td>
+                <td>10</td>
+                <td>20</td>
               </tr>
             </tbody>
           </table>
     </div>
-    <section class="box1">
-    <div>
-      <img src="https://i.pinimg.com/564x/73/c7/c8/73c7c89abc9a519ad3f769342eff4b7b.jpg" class="fotoA"><h3>Rebeca Andrade Brilha nas Olimpíadas de Paris 2024</h3>
-      <p>Paris, 12 de agosto de 2024 – A ginasta brasileira Rebeca Andrade encantou o público no evento de ginástica das Olimpíadas de Paris 2024, demonstrando mais uma vez sua excelência e talento. Em uma performance notável nas finais do individual geral, Andrade executou uma série de rotinas impressionantes, combinando técnica refinada com uma expressividade marcante. Sua apresentação nas barras assimétricas foi particularmente memorável, levando a atleta ao topo do pódio e garantindo a medalha de ouro. 
-        Esta conquista não apenas celebra a habilidade de Andrade, mas também marca um momento significativo para a ginástica brasileira no cenário olímpico. A vitória solidifica sua posição como uma das ginastas mais destacadas da atualidade e oferece uma inspiração duradoura para futuras gerações.</p>
-      
+    <div class="box1">
+      <div>
+      <img src="https://i.pinimg.com/564x/73/c7/c8/73c7c89abc9a519ad3f769342eff4b7b.jpg" class="fotoA">
+      </div>
+        <div class="texto"><h3>Rebeca Andrade Brilha em Competição Internacional e Consolida seu Status como uma das Maiores da Ginástica</h3>
+        <p>
+          Em uma performance que encantou o público e reafirmou sua posição como uma das principais ginastas do mundo, Rebeca Andrade conquistou mais uma vitória significativa em uma competição internacional de alto nível.
+          A atleta brasileira, conhecida por sua habilidade impressionante e graça em cada movimento, apresentou uma rotina impecável que lhe garantiu o topo do pódio e conquistou os corações de fãs e críticos ao redor do globo.
+          Com esta recente conquista, Rebeca não apenas adiciona mais uma medalha ao seu currículo já brilhante, mas também solidifica sua influência e importância no cenário da ginástica mundial.
+        </p>
+        <a href="./OlimpiadasNoticia.html" class="link">
+          <div class="botao">
+            <p class="seeMore">Veja mais sobre</p>
+          </div>
+        </a>
+        </div>
+        
     </div>
-    </section>
 </body>
 </html>
